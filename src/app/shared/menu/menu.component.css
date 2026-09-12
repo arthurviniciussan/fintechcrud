@@ -1,21 +1,45 @@
-h1 {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    color: #172033;
-    font-size: 40px;
-    text-align: center;
-    font-family: Encode Sans Semi Expanded;
-    color: #08561ad7;
-    box-shadow: #0e1115;
+.navbar {
+ padding: 16px 32px;
+ background-color: rgb(255, 243, 226);
+ color: #0b7b25;
+ font-family: Arial, Helvetica, sans-serif;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.usuarioLogado {
-margin-top: 5px;
-margin-right: 30px;
-color: #475569;
-font-size: 16px;
-font-weight: normal;
-text-align: right;
+.navbar-container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}.navbar-esquerda,
+.navbar-list
+,
+.navbar-acoes
+{
+ display: flex;
+ align-items: center;
+}.navbar-list
+{
+ gap: 28px;
+ margin: 0 0 0 35px;
+ padding: 0;
+ list-style: none;
+}
+
+.navbar
+-logo,
+.navbar a {
+ color: #0b7b25;
+ font-size: 15px;
+ font-weight: 600;
+ letter-spacing:-0.2px;
+ text-decoration: none;
+}.navbar-logo {
+ font-size: 16px;
+}.navbar-acoes
+{
+ gap: 24px; }.navbar a:hover {
+color: #0b7b25;
+text-decoration: underline;
 }
 
 .encode-sans-semi-expanded-thin {
@@ -70,14 +94,4 @@ text-align: right;
   font-family: "Encode Sans Semi Expanded", sans-serif;
   font-weight: 900;
   font-style: normal;
-}
-
-app-footer {
- display: block;
- margin-top: auto;
-}
-:host {
- display: flex;
- flex-direction: column;
- min-height: 100vh;
 }
