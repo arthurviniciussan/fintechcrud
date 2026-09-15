@@ -4,8 +4,13 @@ import { Component } from '@angular/core';
   selector: 'app-menu',
   imports: [],
   templateUrl: './menu.component.html',
-  styleUrl: './menu.component.css'
+  styleUrls: ['./menu.component.css']
 })
 export class MenuComponent {
-  
+  itensMenu = [
+    { label:'Início', link:'/' },
+    { label:'Clientes', link:'/clientes' },
+    { label:'Produtos', link:'/produtos' },
+    { label:'Contas', link:'/contas' }
+  ]
 }
