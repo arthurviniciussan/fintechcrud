@@ -4,6 +4,10 @@
  color: rgb(255, 243, 226);
  font-family: Arial, Helvetica,
 sans-serif;
+display: flex;
+min-height: 20vh;
+z-index: 10;
+flex-wrap: wrap;
 }
 .footer-conteudo {
  max-width: 1100px;

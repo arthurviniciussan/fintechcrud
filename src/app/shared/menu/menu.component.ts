@@ -11,6 +11,7 @@ export class MenuComponent {
     { label:'Início', link:'/' },
     { label:'Clientes', link:'/clientes' },
     { label:'Produtos', link:'/produtos' },
+    { label:'Sobre', link:'/sobre'},
     { label:'Contas', link:'/contas' }
   ]
 }
