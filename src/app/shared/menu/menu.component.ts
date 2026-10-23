@@ -1,17 +1,18 @@
 import { Component } from '@angular/core';
+import { RouterLink } from '@angular/router';
 
 @Component({
-  selector: 'app-menu',
-  imports: [],
-  templateUrl: './menu.component.html',
-  styleUrls: ['./menu.component.css']
+ selector: 'app-menu',
+ standalone: true,
+ imports: [RouterLink],
+ templateUrl: './menu.component.html',
+ styleUrl: './menu.component.css'
 })
 export class MenuComponent {
-  itensMenu = [
-    { label:'Início', link:'/' },
-    { label:'Clientes', link:'/clientes' },
-    { label:'Produtos', link:'/produtos' },
-    { label:'Sobre', link:'/sobre'},
-    { label:'Contas', link:'/contas' }
-  ]
+itensMenu = [
+{ label: 'Inicio', link: '' },
+{ label: 'Cadastre-se', link: '/cliente-cadastro' },
+{ label: 'Contas', link: '/contas' },
+{ label: 'Sobre', link: '/sobre' }
+]
 }
