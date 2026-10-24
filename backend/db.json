@@ -1,0 +1,12 @@
+{
+    "clientes": [
+        {
+            "id": "ABC1",
+            "nome": "João Silva",
+            "sobrenome": "Silva",
+            "cpf": "12345678900",
+            "dataNascimento": "2067-67-67",
+            "email": "joao.silva@example.com"
+        }
+    ]
+}

@@ -14,7 +14,11 @@ export class AdminClientesComponent implements OnInit {
   listaClientes: Cliente[] = [];
 
   ngOnInit(): void {
-    this.listaClientes = this.service.listar();
+    this.service.listarO().subscribe({
+      next: (clientes) => {
+        this.listaClientes = clientes;
+      }
+    });
   }
 
   editar(id?: number) {
