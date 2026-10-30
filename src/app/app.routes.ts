@@ -8,5 +8,6 @@ export const routes: Routes = [
   { path: '', component: HomeComponent },
   { path: 'login', component: LoginComponent },
   { path: 'admin-clientes-listar', component: AdminClientesComponent },
-  { path: 'cliente-cadastro', component: ClienteFormComponent }
+  { path: 'cliente-cadastro', component: ClienteFormComponent },
+  { path: 'admin-clientes-editar/:id', component: ClienteFormComponent },
 ];

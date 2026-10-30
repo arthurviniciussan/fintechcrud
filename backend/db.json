@@ -1,12 +1,31 @@
 {
-    "clientes": [
-        {
-            "id": "ABC1",
-            "nome": "João Silva",
-            "sobrenome": "Silva",
-            "cpf": "12345678900",
-            "dataNascimento": "2067-67-67",
-            "email": "joao.silva@example.com"
-        }
-    ]
+  "clientes": [
+    {
+      "id": "ABC1",
+      "nome": "João Silva",
+      "sobrenome": "Silva",
+      "cpf": "12345678900",
+      "dataNascimento": "2026-10-30",
+      "email": "joao.silva@example.com"
+    },
+    {
+      "id": "VQP9voaPfbA",
+      "nome": "João Silva",
+      "sobrenome": "Silva",
+      "cpf": "12345678900",
+      "dataNascimento": "2026-10-31",
+      "email": "joao.silva@example.com",
+      "senha": "123"
+    },
+    {
+      "id": "XlN5v9NqLeg",
+      "nome": "João Silva",
+      "sobrenome": "Silva",
+      "cpf": "12345678900",
+      "dataNascimento": "2067-67-67",
+      "email": "joao.silva@mudei.com",
+      "senha": "123"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

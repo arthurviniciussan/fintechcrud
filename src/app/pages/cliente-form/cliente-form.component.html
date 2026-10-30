@@ -1,8 +1,13 @@
 <div class="content-container">
   <form (ngSubmit)="salvar()" #clienteForm="ngForm">
     <h1>Cadastro de Cliente</h1>
+
     <p class="descricao">Preencha os dados abaixo para criar seu cadastro.</p>
 
+    @if(clienteID) {
+      <label for="id">ID:</label>
+      <input type="text" id="id" name="id" [(ngModel)]="cliente.id" disabled/>
+    }
     <label for="cpf">CPF</label>
     <input
       class="input-simples"
